@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>connectForm</class>
+ <widget class="QWidget" name="connectForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="inputIP">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="text">
+    <string>000.000.000.000</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputPort">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5150</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputUname">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Default</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonConnect">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>87</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIP">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP Address:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPort">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>58</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUname">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Username:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
